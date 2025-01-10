@@ -20,8 +20,3 @@ Contents
 
    usage
    api
-
-.. toctree::
-
-   teste
-      teste
