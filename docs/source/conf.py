@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Tutorial Apphub'
+copyright = '2023, EASolutions Technology'
+author = 'Alisson Santos'
 
 release = '0.1'
 version = '0.1.0'
@@ -33,3 +33,9 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Additional configuration for Read the Docs
+
+# Ensure the sphinx_rtd_theme is available
+import sphinx_rtd_theme
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
